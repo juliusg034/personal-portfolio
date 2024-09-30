@@ -1,0 +1,29 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  height: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: #544037;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+}
