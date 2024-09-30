@@ -8,10 +8,10 @@ function App() {
 
   return (
     <Router>
-     <Home/>
      <Routes>
         <Route path='/' element={<Home/>}/>
       </Routes> 
+
     </Router>
   )
 }
