@@ -1,26 +1,38 @@
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 #logo {
-  height: 100px;
+  height: 80px;
+  margin-left: 50px;
 }
 
 a {
   text-decoration: none;
   color: #544037;
+  font-size: large;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #85654d;
+}
+
+a:active {
+  color: #b68a63;
 }
 
 .right-side {
   display: flex;
   align-items: center;
-  margin-right: 50px;
+  margin-right: 100px;
 }
 
 .links {
   display: flex;
-  gap: 10px;
+  gap: 40px;
   list-style: none;
 }
 
