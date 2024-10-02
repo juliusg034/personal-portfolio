@@ -1,3 +1,8 @@
 body {
   margin: 0;
+  background-color: #f0ece3;
+}
+
+#root {
+  height: 100%;
 }
